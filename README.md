@@ -65,7 +65,7 @@ opportunity = get_opportunity_for_market("ETH/BTC", collections_dir, us_eth_btc_
 print(opportunity)
 ```
 
-1Accepted arguments in place of 'US' in this example are 'PA', 'AU', 'CA', 'JP', 'SG', 'HK', 'NZ', 'IE', 'CN', 'KR', 'IL', 'MT', 'EU', 'VG', 'GB', 'RU', 'PL', 'SC', 'MX', 'NL', 'BR', 'PH', 'UA', 'TR', 'IS', 'TH', 'DE', 'CY', 'CL', 'TW', 'ID', 'UK', 'IN', 'VN', 'BG', 'CZ', 'ES', 'SE', 'VC', 'ZA', 'CH', 'TZ', 'FR', 'AR', 'VE', 'PK', and 'AT'.
+Accepted arguments in place of 'US' in this example are 'PA', 'AU', 'CA', 'JP', 'SG', 'HK', 'NZ', 'IE', 'CN', 'KR', 'IL', 'MT', 'EU', 'VG', 'GB', 'RU', 'PL', 'SC', 'MX', 'NL', 'BR', 'PH', 'UA', 'TR', 'IS', 'TH', 'DE', 'CY', 'CL', 'TW', 'ID', 'UK', 'IN', 'VN', 'BG', 'CZ', 'ES', 'SE', 'VC', 'ZA', 'CH', 'TZ', 'FR', 'AR', 'VE', 'PK', and 'AT'.
 
 #### One Exchange/ Multiple Currencies
 
