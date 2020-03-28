@@ -221,7 +221,7 @@ BCH to ETH at 1.8874401 = 118.18480885571941 on bittrex for BCH/ETH
 
 **贝尔曼·福特**
 
-* 使用稀疏矩阵代替图形以提高Bellman Ford性能`scipynetworkx`
+* 使用`scipy·稀疏矩阵代替`networkx`图形以提高Bellman Ford性能
 
   比这个项目更像是对 scipy 的升级。这是因为 scipy 的 Bellman Ford 实现当前会在发现负环时引发`error`-没有任何机制可以追溯负环。
 
