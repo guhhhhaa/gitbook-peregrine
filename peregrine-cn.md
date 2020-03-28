@@ -1,7 +1,5 @@
 # 游隼
 
-
-
 ## 游隼
 
 一个Python库，提供了多种算法来检测48个国家/地区超过38,000个交易对的120多种加密货币交易所的套利机会
@@ -221,7 +219,7 @@ BCH to ETH at 1.8874401 = 118.18480885571941 on bittrex for BCH/ETH
 
 **贝尔曼·福特**
 
-* 使用`scipy·稀疏矩阵代替`networkx`图形以提高Bellman Ford性能
+* 使用`scipy·稀疏矩阵代替`networkx\`图形以提高Bellman Ford性能
 
   比这个项目更像是对 scipy 的升级。这是因为 scipy 的 Bellman Ford 实现当前会在发现负环时引发`error`-没有任何机制可以追溯负环。
 
