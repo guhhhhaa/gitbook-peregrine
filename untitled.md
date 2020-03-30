@@ -1,8 +1,4 @@
----
-description: peregrine/peregrinearb/bellmannx.py/
----
-
-# bellmannx.py
+# Untitled
 
 ```python
 import math
@@ -183,8 +179,10 @@ class NegativeWeightDepthFinder(NegativeWeightFinder):
 
 def bellman_ford(graph, source='BTC', unique_paths=True, depth=False):
     """
-    查看NegativeWeightFinder类中bellman_ford方法的文档字符串。 （这是一个静态包装器函数)
-    如果depth为true，则从start_amount的权重开始产生所有负加权路径（占深度）。
+    Look at the docstring of the bellman_ford method in the NegativeWeightFinder class. (This is a static wrapper
+    function.)
+    If depth is true, yields all negatively weighted paths (accounting for depth) when starting with a weight of
+    starting_amount.
     """
     if depth:
         return NegativeWeightDepthFinder(graph).bellman_ford(source, unique_paths)
@@ -204,13 +202,13 @@ def get_starting_volume(graph, path):
     start = path[0]
     end = path[1]
     initial_volume = math.exp(-graph[start][end]['depth'])
-    # 可以以最佳价格交易结束的起始数量，该数量受先前的市场数量限制
-    # 在机会中
+    # the amount of start that can be traded for end at the best price as limited by the previous volumes of the markets
+    # in the opportunity
     previous_volume = initial_volume * math.exp(-graph[start][end]['weight'])
     for i in range(1, len(path) - 1):
         start = path[i]
         end = path[i + 1]
-        # 以最佳价格可以交易结束的开始数量
+        # the amount of start that can be traded for end at the best price
         current_max_volume = math.exp(-graph[start][end]['depth'])
         if previous_volume > current_max_volume:
             volume_scalar *= current_max_volume / previous_volume
@@ -222,10 +220,10 @@ def get_starting_volume(graph, path):
 
 def calculate_profit_ratio_for_path(graph, path, depth=False, starting_amount=1, gather_path_data=False):
     """
-    如果collect_path_data，则返回一个二元组，其中第一个元素是给定路径的利润率，而
-    第二个元素是由市场符号键控的dict，并由带有“ rate”和“ volume”键的dict赋值， 
-    对应于交易的速率和最大交易量。
-    数量和汇率始终以基础货币计。
+    If gather_path_data, returns a two-tuple where the first element is the profit ratio for the given path and the
+    second element is a dict keyed by market symbol and valued by a a dict with 'rate' and 'volume' keys, corresponding
+    to the rate and maximum volume for the trade.
+    The volume and rate are always in terms of base currency.
     """
     adapter.info('Calculating profit ratio')
     if gather_path_data:
@@ -236,14 +234,14 @@ def calculate_profit_ratio_for_path(graph, path, depth=False, starting_amount=1,
         start = path[i]
         end = path[i + 1]
         if depth:
-            # volume 和 rate_with_fee 是在最开始的角度而言 ，可以是基准货币或报价货币。
+            # volume and rate_with_fee are in terms of start, may be base or quote currency.
             rate_with_fee = math.exp(-graph[start][end]['weight'])
             volume = min(ratio, math.exp(-graph[start][end]['depth']))
             ratio = volume * rate_with_fee
 
             if gather_path_data:
                 sell = graph[start][end]['trade_type'] == 'SELL'
-                # 对于买单，以基本货币表示交易量。
+                # for buy orders, put volume in terms of base currency.
                 if not sell:
                     volume /= graph[start][end]['no_fee_rate']
 
@@ -251,8 +249,8 @@ def calculate_profit_ratio_for_path(graph, path, depth=False, starting_amount=1,
                                   'rate': graph[start][end]['no_fee_rate'],
                                   'fee': graph[start][end]['fee'],
                                   'volume': volume,
-                                  # 待办事项：更改订单及其用法以进行输入
-                                  # 如果起点在路径终点之前，则为卖单。
+                                  # todo: change order and its usages to type
+                                  # if start comes before end in path, this is a sell order.
                                   'order': 'SELL' if sell else 'BUY'})
         else:
             ratio *= math.exp(-graph[start][end]['weight'])
