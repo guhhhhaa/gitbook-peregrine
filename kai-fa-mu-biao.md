@@ -20,7 +20,7 @@ for path in paths:
 multiple\_coins\_one\_exchange.py
 
 * asyncio
-* load\_exchange\_graph
+* load\_exchange\_graph（[peregrine](https://github.com/wardbradt/peregrine/tree/58f160a15bea2b26a4c9353d9a10fdc878f00f74)/[peregrinearb](https://github.com/wardbradt/peregrine/tree/58f160a15bea2b26a4c9353d9a10fdc878f00f74/peregrinearb)/[utils](https://github.com/wardbradt/peregrine/tree/58f160a15bea2b26a4c9353d9a10fdc878f00f74/peregrinearb/utils)/[**single\_exchange.py**](https://github.com/wardbradt/peregrine/blob/58f160a15bea2b26a4c9353d9a10fdc878f00f74/peregrinearb/utils/single_exchange.py) ）
 * print\_profit\_opportunity\_for\_path
-* bellman\_ford（from .bellmannx import bellman\_ford）
+* bellman\_ford（from .bellmannx import bellman\_ford，[peregrine](https://github.com/wardbradt/peregrine/tree/58f160a15bea2b26a4c9353d9a10fdc878f00f74)/[peregrinearb](https://github.com/wardbradt/peregrine/tree/58f160a15bea2b26a4c9353d9a10fdc878f00f74/peregrinearb)/[**bellmannx.py**](https://github.com/wardbradt/peregrine/blob/58f160a15bea2b26a4c9353d9a10fdc878f00f74/peregrinearb/bellmannx.py) ）
 
