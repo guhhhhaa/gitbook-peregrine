@@ -54,16 +54,3 @@ Project maintainers who do not follow or enforce the Code of Conduct in good fai
 
 This Code of Conduct is adapted from the [Contributor Covenant](http://contributor-covenant.org/), version 1.4, available at [http://contributor-covenant.org/version/1/4](http://contributor-covenant.org/version/1/4/)
 
-* © 2021 GitHub, Inc.
-* [Terms](https://github.com/site/terms)
-* [Privacy](https://github.com/site/privacy)
-* [Security](https://github.com/security)
-* [Status](https://www.githubstatus.com/)
-* [Docs](https://docs.github.com/)
-* [Contact GitHub](https://support.github.com/)
-* [Pricing](https://github.com/pricing)
-* [API](https://docs.github.com/)
-* [Training](https://services.github.com/)
-* [Blog](https://github.blog/)
-* [About](https://github.com/about)
-

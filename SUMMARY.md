@@ -3,9 +3,9 @@
 * [Peregrine](README.md)
 * [游隼](peregrine-cn.md)
 * [CONTRIBUTING.md](contributing.md.md)
-* [Untitled](untitled-2.md)
-* [Untitled](untitled-1.md)
-* [Untitled](untitled.md)
+* [CHANGELOG.md](untitled-2.md)
+* [Glossary.md](untitled-1.md)
+* [requirements.txt](untitled.md)
 * [bellmannx.py](bellmannx.md)
 * [bellman\_multi\_graph.py](bellman_multi_graph.md)
 
