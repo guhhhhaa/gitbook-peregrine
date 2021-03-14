@@ -7,6 +7,12 @@ description: >-
 
 # Peregrine
 
+{% embed url="https://www.programcreek.com/python/?code=wardbradt%2Fperegrine%2F" %}
+
+
+
+![](.gitbook/assets/ping-mu-kuai-zhao-20210314-shang-wu-9.18.16.png)
+
 ## Peregrine
 
 A Python library which provides several algorithms to detect arbitrage opportunities across over 120 cryptocurrency exchanges in 48 countries on over 38,000 trading pairs
