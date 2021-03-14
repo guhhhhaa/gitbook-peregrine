@@ -1,4 +1,4 @@
-# 开发目标
+# 开发目标🚩
 
 peregrine只是打印出套利机会，但是没有执行功能，怎么执行？
 
@@ -20,7 +20,7 @@ for path in paths:
 multiple\_coins\_one\_exchange.py
 
 * asyncio
-* load\_exchange\_graph（[peregrine](https://github.com/wardbradt/peregrine/tree/58f160a15bea2b26a4c9353d9a10fdc878f00f74)/[peregrinearb](https://github.com/wardbradt/peregrine/tree/58f160a15bea2b26a4c9353d9a10fdc878f00f74/peregrinearb)/[utils](https://github.com/wardbradt/peregrine/tree/58f160a15bea2b26a4c9353d9a10fdc878f00f74/peregrinearb/utils)/[**single\_exchange.py**](https://github.com/wardbradt/peregrine/blob/58f160a15bea2b26a4c9353d9a10fdc878f00f74/peregrinearb/utils/single_exchange.py) ）
+* load\_exchange\_graph（[peregrine](https://github.com/wardbradt/peregrine/tree/58f160a15bea2b26a4c9353d9a10fdc878f00f74)/[peregrinearb](https://github.com/wardbradt/peregrine/tree/58f160a15bea2b26a4c9353d9a10fdc878f00f74/peregrinearb)/[utils](https://github.com/wardbradt/peregrine/tree/58f160a15bea2b26a4c9353d9a10fdc878f00f74/peregrinearb/utils)/[**single\_exchange.py**](https://github.com/wardbradt/peregrine/blob/58f160a15bea2b26a4c9353d9a10fdc878f00f74/peregrinearb/utils/single_exchange.py) ，41行）
 * print\_profit\_opportunity\_for\_path
-* bellman\_ford（from .bellmannx import bellman\_ford，[peregrine](https://github.com/wardbradt/peregrine/tree/58f160a15bea2b26a4c9353d9a10fdc878f00f74)/[peregrinearb](https://github.com/wardbradt/peregrine/tree/58f160a15bea2b26a4c9353d9a10fdc878f00f74/peregrinearb)/[**bellmannx.py**](https://github.com/wardbradt/peregrine/blob/58f160a15bea2b26a4c9353d9a10fdc878f00f74/peregrinearb/bellmannx.py) ）
+* bellman\_ford（from .bellmannx import bellman\_ford，[peregrine](https://github.com/wardbradt/peregrine/tree/58f160a15bea2b26a4c9353d9a10fdc878f00f74)/[peregrinearb](https://github.com/wardbradt/peregrine/tree/58f160a15bea2b26a4c9353d9a10fdc878f00f74/peregrinearb)/[**bellmannx.py**](https://github.com/wardbradt/peregrine/blob/58f160a15bea2b26a4c9353d9a10fdc878f00f74/peregrinearb/bellmannx.py)**，48行** ）
 
