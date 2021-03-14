@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Peregrine](README.md)
+* [Peregrine——黑洞先遣者基地](README.md)
 * [开发目标🚩](kai-fa-mu-biao.md)
 * [Peregrine译文1](peregrine-yi-wen-1.md)
 * [代码](dai-ma/README.md)

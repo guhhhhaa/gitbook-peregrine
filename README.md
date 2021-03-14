@@ -5,7 +5,7 @@ description: >-
   38,000 trading pairs
 ---
 
-# Peregrine
+# Peregrine——黑洞先遣者基地
 
 {% embed url="https://www.programcreek.com/python/?code=wardbradt%2Fperegrine%2F" %}
 
