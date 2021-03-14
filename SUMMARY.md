@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Peregrine](README.md)
+* [开发目标](kai-fa-mu-biao.md)
 * [Peregrine译文1](peregrine-yi-wen-1/README.md)
   * [Peregrine机翻](peregrine-yi-wen-1/peregrine-cn.md)
 * [代码](dai-ma/README.md)
