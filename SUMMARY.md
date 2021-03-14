@@ -1,8 +1,8 @@
 # Table of contents
 
 * [Peregrine](README.md)
-* [Peregrine机翻](peregrine-cn.md)
-* [Peregrine译文1](peregrine-yi-wen-1.md)
+* [Peregrine译文1](peregrine-yi-wen-1/README.md)
+  * [Peregrine机翻](peregrine-yi-wen-1/peregrine-cn.md)
 * [代码](dai-ma/README.md)
   * [Examples](dai-ma/examples/README.md)
     * [multiple\_coins\_one\_exchange.py🚩](dai-ma/examples/multiple_coins_one_exchange.py.md)
